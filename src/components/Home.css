@@ -1,0 +1,28 @@
+.app-container{
+    display:flex;
+}
+.app-container img{
+    height:200px;
+    width:200px;
+}
+.logo-container{
+    height:100vh;
+    width:30vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.teams-wrapper{
+    display:grid;
+    width:100%;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4, auto);
+}
+.teams-wrapper > div{
+    padding:.2rem;
+    background:black;
+    color:white;
+}
+.teams-wrapper > div a{
+    color:white;
+}
